@@ -60,8 +60,9 @@ async function run() {
       })
 
 
+
       //get order
-      app.get('/ addOrders',async (req,res)=>{
+      app.get('/addOrders',async (req,res)=>{
         console.log(req.query)
         let query={}
         const email=req.query.email;
